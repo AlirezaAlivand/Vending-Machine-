@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/Gate_Level_FSM/Gate_Level_FSM_Test_isim_beh.exe" -prj "C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/Gate_Level_FSM/Gate_Level_FSM_Test_beh.prj" "work.Gate_Level_FSM_Test" "work.glbl" 

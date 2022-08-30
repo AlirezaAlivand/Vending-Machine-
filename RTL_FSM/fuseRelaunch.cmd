@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/RTL_FSM_TEST_isim_beh.exe" -prj "C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/RTL_FSM_TEST_beh.prj" "work.RTL_FSM_TEST" "work.glbl" 

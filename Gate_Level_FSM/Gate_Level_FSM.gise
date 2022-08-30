@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Gate_Level_FSM.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Gate_Level_FSM.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Gate_Level_FSM.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Gate_Level_FSM.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Gate_Level_FSM.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Gate_Level_FSM.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Gate_Level_FSM.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Gate_Level_FSM.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Gate_Level_FSM.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Gate_Level_FSM.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Gate_Level_FSM.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Gate_Level_FSM.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Gate_Level_FSM.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Gate_Level_FSM.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Gate_Level_FSM.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Gate_Level_FSM.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Gate_Level_FSM.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Gate_Level_FSM.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Gate_Level_FSM.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Gate_Level_FSM.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Gate_Level_FSM_Test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Gate_Level_FSM_Test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Gate_Level_FSM_Test_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Gate_Level_FSM_Test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Gate_Level_FSM_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Gate_Level_FSM_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Gate_Level_FSM_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Gate_Level_FSM_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Gate_Level_FSM_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Gate_Level_FSM_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Gate_Level_FSM_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Gate_Level_FSM_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Gate_Level_FSM_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Gate_Level_FSM_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Gate_Level_FSM_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Gate_Level_FSM_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Gate_Level_FSM_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Gate_Level_FSM_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Gate_Level_FSM_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="TFF.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="TFF.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="TFF.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="TFF.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="TFF.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="TFF.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="TFF.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="TFF.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="TFF.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TFF.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="TFF.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="TFF.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="TFF.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="TFF.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="TFF.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="TFF.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="TFF_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="TFF_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="TFF_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="TFF_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="TFF_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="TFF_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="TFF_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="TFF_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="TFF_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1627721808" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1627721808">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1627721808" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1004745835858307480" xil_pn:start_ts="1627721808">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1627721808" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="9187032245039519360" xil_pn:start_ts="1627721808">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1627721808" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1627721808">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1627721808" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="8346902607797469300" xil_pn:start_ts="1627721808">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1627721808" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-313773099461494508" xil_pn:start_ts="1627721808">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1627721808" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2486358119238506358" xil_pn:start_ts="1627721808">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1627721820" xil_pn:in_ck="1859118560508958565" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="3247605612302586504" xil_pn:start_ts="1627721808">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Gate_Level_FSM.lso"/>
+      <outfile xil_pn:name="Gate_Level_FSM.ngc"/>
+      <outfile xil_pn:name="Gate_Level_FSM.ngr"/>
+      <outfile xil_pn:name="Gate_Level_FSM.prj"/>
+      <outfile xil_pn:name="Gate_Level_FSM.stx"/>
+      <outfile xil_pn:name="Gate_Level_FSM.syr"/>
+      <outfile xil_pn:name="Gate_Level_FSM.xst"/>
+      <outfile xil_pn:name="Gate_Level_FSM_Test_beh.prj"/>
+      <outfile xil_pn:name="Gate_Level_FSM_Test_stx_beh.prj"/>
+      <outfile xil_pn:name="Gate_Level_FSM_xst.xrpt"/>
+      <outfile xil_pn:name="TFF.ngr"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1627721820" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-358544876266460385" xil_pn:start_ts="1627721820">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1627721831" xil_pn:in_ck="-5556379809880302103" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4806064942726862884" xil_pn:start_ts="1627721820">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Gate_Level_FSM.bld"/>
+      <outfile xil_pn:name="Gate_Level_FSM.ngd"/>
+      <outfile xil_pn:name="Gate_Level_FSM_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1627721888" xil_pn:in_ck="-5556379767261859125" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="-8951648165516822008" xil_pn:start_ts="1627721831">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Gate_Level_FSM.pcf"/>
+      <outfile xil_pn:name="Gate_Level_FSM_map.map"/>
+      <outfile xil_pn:name="Gate_Level_FSM_map.mrp"/>
+      <outfile xil_pn:name="Gate_Level_FSM_map.ncd"/>
+      <outfile xil_pn:name="Gate_Level_FSM_map.ngm"/>
+      <outfile xil_pn:name="Gate_Level_FSM_map.xrpt"/>
+      <outfile xil_pn:name="Gate_Level_FSM_summary.xml"/>
+      <outfile xil_pn:name="Gate_Level_FSM_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1627721930" xil_pn:in_ck="5314022930986446557" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-753327474312324658" xil_pn:start_ts="1627721888">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Gate_Level_FSM.ncd"/>
+      <outfile xil_pn:name="Gate_Level_FSM.pad"/>
+      <outfile xil_pn:name="Gate_Level_FSM.par"/>
+      <outfile xil_pn:name="Gate_Level_FSM.ptwx"/>
+      <outfile xil_pn:name="Gate_Level_FSM.unroutes"/>
+      <outfile xil_pn:name="Gate_Level_FSM.xpi"/>
+      <outfile xil_pn:name="Gate_Level_FSM_pad.csv"/>
+      <outfile xil_pn:name="Gate_Level_FSM_pad.txt"/>
+      <outfile xil_pn:name="Gate_Level_FSM_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1627721930" xil_pn:in_ck="-5556385392896332221" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1627721916">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Gate_Level_FSM.twr"/>
+      <outfile xil_pn:name="Gate_Level_FSM.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

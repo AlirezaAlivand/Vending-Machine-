@@ -1,0 +1,18 @@
+Running: E:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/RTL_FSM_TEST_isim_beh.exe -prj C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/RTL_FSM_TEST_beh.prj work.RTL_FSM_TEST work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/RTL_FSM.v" into library work
+Analyzing Verilog file "C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/RTL_FSM_TEST.v" into library work
+Analyzing Verilog file "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module RTL_FSM
+Compiling module RTL_FSM_TEST
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/RTL_FSM_TEST_isim_beh.exe
+Fuse Memory Usage: 28096 KB
+Fuse CPU Usage: 484 ms

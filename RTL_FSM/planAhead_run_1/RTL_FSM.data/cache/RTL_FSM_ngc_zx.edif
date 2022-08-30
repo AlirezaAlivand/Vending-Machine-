@@ -1,0 +1,339 @@
+(edif RTL_FSM
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2021 7 31 13 27 45)
+      (program "Xilinx ngc2edif" (version "P.20131013"))
+      (author "Xilinx. Inc ")
+      (comment "This EDIF netlist is to be used within supported synthesis tools")
+      (comment "for determining resource/timing estimates of the design component")
+      (comment "represented by this netlist.")
+      (comment "Command line: -mdp2sp -w -secure RTL_FSM.ngc RTL_FSM.edif ")))
+  (external UNISIMS
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell FDR
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port C
+              (direction INPUT)
+            )
+            (port D
+              (direction INPUT)
+            )
+            (port R
+              (direction INPUT)
+            )
+            (port Q
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell LUT3
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I0
+              (direction INPUT)
+            )
+            (port I1
+              (direction INPUT)
+            )
+            (port I2
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell LUT4
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I0
+              (direction INPUT)
+            )
+            (port I1
+              (direction INPUT)
+            )
+            (port I2
+              (direction INPUT)
+            )
+            (port I3
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell LUT2
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I0
+              (direction INPUT)
+            )
+            (port I1
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell IBUF
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell OBUF
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell BUFGP
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+  )
+
+  (library RTL_FSM_lib
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell RTL_FSM
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port clock
+              (direction INPUT)
+            )
+            (port reset
+              (direction INPUT)
+            )
+            (port x
+              (direction INPUT)
+            )
+            (port (array (rename Z "Z<1:2>") 2)
+              (direction OUTPUT))
+            (designator "xc7k70t-2-fbg676")
+            (property TYPE (string "RTL_FSM") (owner "Xilinx"))
+            (property BUS_INFO (string "2:OUTPUT:Z<1:2>") (owner "Xilinx"))
+            (property SHREG_MIN_SIZE (string "2") (owner "Xilinx"))
+            (property SHREG_EXTRACT_NGC (string "YES") (owner "Xilinx"))
+            (property NLW_UNIQUE_ID (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_TAG (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_ALIAS (string "RTL_FSM_RTL_FSM") (owner "Xilinx"))
+          )
+          (contents
+            (instance (rename machine_FSM_FFd1_renamed_0 "machine_FSM_FFd1")
+              (viewRef view_1 (cellRef FDR (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename machine_FSM_FFd3_renamed_1 "machine_FSM_FFd3")
+              (viewRef view_1 (cellRef FDR (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename machine_FSM_FFd2_renamed_2 "machine_FSM_FFd2")
+              (viewRef view_1 (cellRef FDR (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename machine_Z_1_1 "machine_Z<1>1")
+              (viewRef view_1 (cellRef LUT3 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property PK_HLUTNM (string "___XLNM___0___machine_Z<1>1") (owner "Xilinx"))
+              (property INIT (string "E8") (owner "Xilinx"))
+            )
+            (instance (rename machine_FSM_FFd2_In1 "machine_FSM_FFd2-In1")
+              (viewRef view_1 (cellRef LUT3 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6C") (owner "Xilinx"))
+            )
+            (instance (rename machine_FSM_FFd1_In11 "machine_FSM_FFd1-In11")
+              (viewRef view_1 (cellRef LUT4 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "78E0") (owner "Xilinx"))
+            )
+            (instance (rename machine_FSM_FFd3_In11 "machine_FSM_FFd3-In11")
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property PK_HLUTNM (string "___XLNM___0___machine_Z<1>1") (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance (rename reset_IBUF_renamed_3 "reset_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename x_IBUF_renamed_4 "x_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename Z_1_OBUF_renamed_5 "Z_1_OBUF")
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance Z_2_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename clock_BUFGP_renamed_6 "clock_BUFGP")
+              (viewRef view_1 (cellRef BUFGP (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (net clock_BUFGP
+              (joined
+                (portRef C (instanceRef machine_FSM_FFd1_renamed_0))
+                (portRef C (instanceRef machine_FSM_FFd3_renamed_1))
+                (portRef C (instanceRef machine_FSM_FFd2_renamed_2))
+                (portRef O (instanceRef clock_BUFGP_renamed_6))
+              )
+            )
+            (net reset_IBUF
+              (joined
+                (portRef R (instanceRef machine_FSM_FFd1_renamed_0))
+                (portRef R (instanceRef machine_FSM_FFd3_renamed_1))
+                (portRef R (instanceRef machine_FSM_FFd2_renamed_2))
+                (portRef O (instanceRef reset_IBUF_renamed_3))
+              )
+            )
+            (net x_IBUF
+              (joined
+                (portRef I0 (instanceRef machine_FSM_FFd3_In11))
+                (portRef O (instanceRef x_IBUF_renamed_4))
+                (portRef I0 (instanceRef machine_FSM_FFd2_In1))
+                (portRef I0 (instanceRef machine_FSM_FFd1_In11))
+              )
+            )
+            (net Z_1_OBUF
+              (joined
+                (portRef O (instanceRef machine_Z_1_1))
+                (portRef I (instanceRef Z_1_OBUF_renamed_5))
+              )
+            )
+            (net machine_FSM_FFd1
+              (joined
+                (portRef Q (instanceRef machine_FSM_FFd1_renamed_0))
+                (portRef I1 (instanceRef machine_Z_1_1))
+                (portRef I (instanceRef Z_2_OBUF))
+                (portRef I2 (instanceRef machine_FSM_FFd1_In11))
+              )
+            )
+            (net (rename machine_FSM_FFd3_In "machine_FSM_FFd3-In")
+              (joined
+                (portRef D (instanceRef machine_FSM_FFd3_renamed_1))
+                (portRef O (instanceRef machine_FSM_FFd3_In11))
+              )
+            )
+            (net (rename machine_FSM_FFd2_In "machine_FSM_FFd2-In")
+              (joined
+                (portRef D (instanceRef machine_FSM_FFd2_renamed_2))
+                (portRef O (instanceRef machine_FSM_FFd2_In1))
+              )
+            )
+            (net (rename machine_FSM_FFd1_In "machine_FSM_FFd1-In")
+              (joined
+                (portRef D (instanceRef machine_FSM_FFd1_renamed_0))
+                (portRef O (instanceRef machine_FSM_FFd1_In11))
+              )
+            )
+            (net machine_FSM_FFd3
+              (joined
+                (portRef Q (instanceRef machine_FSM_FFd3_renamed_1))
+                (portRef I0 (instanceRef machine_Z_1_1))
+                (portRef I3 (instanceRef machine_FSM_FFd1_In11))
+                (portRef I1 (instanceRef machine_FSM_FFd3_In11))
+                (portRef I2 (instanceRef machine_FSM_FFd2_In1))
+              )
+            )
+            (net machine_FSM_FFd2
+              (joined
+                (portRef Q (instanceRef machine_FSM_FFd2_renamed_2))
+                (portRef I2 (instanceRef machine_Z_1_1))
+                (portRef I1 (instanceRef machine_FSM_FFd2_In1))
+                (portRef I1 (instanceRef machine_FSM_FFd1_In11))
+              )
+            )
+            (net clock
+              (joined
+                (portRef clock)
+                (portRef I (instanceRef clock_BUFGP_renamed_6))
+              )
+            )
+            (net reset
+              (joined
+                (portRef reset)
+                (portRef I (instanceRef reset_IBUF_renamed_3))
+              )
+            )
+            (net x
+              (joined
+                (portRef x)
+                (portRef I (instanceRef x_IBUF_renamed_4))
+              )
+            )
+            (net (rename Z_1_ "Z<1>")
+              (joined
+                (portRef (member Z 0))
+                (portRef O (instanceRef Z_1_OBUF_renamed_5))
+              )
+            )
+            (net (rename Z_2_ "Z<2>")
+              (joined
+                (portRef (member Z 1))
+                (portRef O (instanceRef Z_2_OBUF))
+              )
+            )
+          )
+      )
+    )
+  )
+
+  (design RTL_FSM
+    (cellRef RTL_FSM
+      (libraryRef RTL_FSM_lib)
+    )
+    (property PART (string "xc7k70t-2-fbg676") (owner "Xilinx"))
+  )
+)
+

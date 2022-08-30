@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Aug  3 22:21:14 2022
+# Process ID: 2036
+# Current directory: C:/Users/kingpc/Desktop/Project/Verilog--Vending machine/Å—ÊéÂ/New folder/Gate_Level_FSM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10252 C:\Users\kingpc\Desktop\Project\Verilog--Vending machine\Å—ÊéÂ\New folder\Gate_Level_FSM\Gate_Level_FSM_Test_isim_beh.wdb
+# Log file: C:/Users/kingpc/Desktop/Project/Verilog--Vending machine/Å—ÊéÂ/New folder/Gate_Level_FSM/vivado.log
+# Journal file: C:/Users/kingpc/Desktop/Project/Verilog--Vending machine/Å—ÊéÂ/New folder/Gate_Level_FSM\vivado.jou
+#-----------------------------------------------------------
+start_guopopen_wave_database {C:\Users\kingpc\Desktop\Project\Verilog--Vending machine\Å—ÊéÂ\New folder\Gate_Level_FSM\Gate_Level_FSM_Test_isim_beh.wdbIINFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specifiedININFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'cccurrent_fileset: Time (s): cpu = 00:00:20 ; elapsed = 00:01:12 . Memory (MB): peak = 724.156 ; gain = 134.96EEERROR: [Wavedata 42-25] The waveform database 'C:\Users\kingpc\Desktop\Project\Verilog--Vending machine\Å—ÊéÂ\New folder\Gate_Level_FSM\Gate_Level_FSM_Test_isim_beh.wdb' could not be opened for the following reason: The file may be corrupt or of an unsupported older format.  As of version 2014.3 Vivado includes a new, enhanced waveform databaexit
+INFO: [Common 17-206] Exiting Vivado at Wed Aug  3 22:23:30 2022...
+urrent version of Vivado cannot open WDB files created in versions prior to 2014.3.exit
+INFO: [Common 17-206] Exiting Vivado at Wed Aug  3 22:23:27 2022...
+
+mon 17-344] 'rdi::open_ppr_or_dcp' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Aug  3 22:23:25 2022...

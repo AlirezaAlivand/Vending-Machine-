@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Jul 31 13:36:11 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Z<1>" LOCATE = SITE "AB12" LEVEL 1;
+COMP "Z<2>" LOCATE = SITE "AB11" LEVEL 1;
+COMP "x" LOCATE = SITE "A12" LEVEL 1;
+COMP "clock" LOCATE = SITE "A8" LEVEL 1;
+PIN clock_pin<0> = BEL "clock" PINNAME PAD;
+PIN "clock_pin<0>" CLOCK_DEDICATED_ROUTE;
+COMP "reset" LOCATE = SITE "A9" LEVEL 1;
+SCHEMATIC END;
+

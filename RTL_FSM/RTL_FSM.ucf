@@ -1,0 +1,9 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clock" LOC = A8;
+NET "reset" LOC = A9;
+NET "x" LOC = A12;
+NET "Z[1]" LOC = AB12;
+NET "Z[2]" LOC = AB11;
+NET "clock" CLOCK_DEDICATED_ROUTE = TRUE;

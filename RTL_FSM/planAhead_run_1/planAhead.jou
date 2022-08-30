@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sat Jul 31 13:26:32 2021
+# Process ID: 4000
+# Log file: C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/pa.fromNetlist.tcl
+startgroup
+set_property package_pin A8 [get_ports clock]
+endgroup
+startgroup
+set_property package_pin A9 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports x]
+endgroup
+startgroup
+set_property package_pin AB12 [get_ports {Z[1]}]
+endgroup
+save_constraints

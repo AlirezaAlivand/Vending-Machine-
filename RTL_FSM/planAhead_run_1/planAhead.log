@@ -1,0 +1,84 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sat Jul 31 13:26:32 2021
+# Process ID: 4000
+# Log file: C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from E:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/pa.fromNetlist.tcl
+# create_project -name RTL_FSM -dir "C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/planAhead_run_1" -part xc7k70tfbg676-2
+create_project: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 435.922 ; gain = 41.957
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/RTL_FSM.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "RTL_FSM.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/RTL_FSM.ucf' to fileset 'constrs_1'
+# add_files [list {RTL_FSM.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc7k70tfbg676-2
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design RTL_FSM.ngc ...
+WARNING:NetListWriters:298 - No output is written to RTL_FSM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file RTL_FSM.edif ...
+ngc2edif: Total memory usage is 78796 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/RTL_FSM.data/cache/RTL_FSM_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/RTL_FSM.data/cache/RTL_FSM_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from E:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/kintex7/kintex7/xc7k70t/ClockRegion.xml
+Loading clock buffers from E:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/kintex7/kintex7/xc7k70t/ClockBuffers.xml
+Loading clock placement rules from E:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/ClockPlacerRules.xml
+Loading package pin functions from E:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/kintex7/PinFunctions.xml...
+Loading package from E:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/kintex7/kintex7/xc7k70t/fbg676/Package.xml
+Loading io standards from E:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/kintex7/IOStandards.xml
+Loading device configuration modes from E:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/kintex7/ConfigModes.xml
+Loading list of drcs for the architecture : E:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/kintex7/drc.xml
+Parsing UCF File [C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/RTL_FSM.ucf]
+Finished Parsing UCF File [C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM/RTL_FSM.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+  FDR => FDRE: 3 instances
+
+Phase 0 | Netlist Checksum: db2a8132
+link_design: Time (s): elapsed = 00:00:45 . Memory (MB): peak = 739.410 ; gain = 291.711
+startgroup
+set_property package_pin A8 [get_ports clock]
+endgroup
+startgroup
+set_property package_pin A9 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports x]
+endgroup
+startgroup
+set_property package_pin AB12 [get_ports {Z[1]}]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/M.Amin/Desktop/Ali_Reza_Alivand/RTL_FSM\planAhead_pid4000.debug)
